@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/main_menu_outer"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_menu"
+        android:background="#444">
+
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.example.randomshapesareas.Drowline
+
+        android:id="@+id/drawline_mainAct"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#555"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@id/main_menu_outer"></com.example.randomshapesareas.Drowline>
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/angels_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/angle"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/lines_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/line"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/plygon_angles_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/plygon_angles"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/area_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/area"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/parametric_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/parametric"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/clear_info"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_clear_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/help"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_help_outline_24"></ImageButton>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

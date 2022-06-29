@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">random shapes areas</string>
+    <array name="spinner_vals">
+        <item>cm</item>
+        <item>milli meter</item>
+        <item>meter</item>
+    </array>
+</resources>

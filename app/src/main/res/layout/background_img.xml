@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="0"
+        android:src="@drawable/grid"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/background_1"
+        android:layout_column="0"></ImageButton>
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/grid2"
+        android:id="@+id/background_2"
+        android:layout_column="2"></ImageButton>
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="1"
+        android:src="@drawable/grid3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/background_3"
+        android:layout_column="0"></ImageButton>
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="1"
+        android:src="@drawable/grid4"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/background_4"
+        android:layout_marginRight="15dp"
+        android:layout_column="2"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/background_5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_column="0"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/background_6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_row="2"
+        android:src="@drawable/grid5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_column="2"></ImageButton>
+
+
+</GridLayout>
+
