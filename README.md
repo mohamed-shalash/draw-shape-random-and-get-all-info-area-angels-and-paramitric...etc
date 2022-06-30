@@ -11,7 +11,7 @@
 
 ![](randompics/Screenshot_2022-06-30-10-22-09-20_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
 
-#all angels sum if you needed
+# all angels sum if you needed
 
 ![](randompics/Screenshot_2022-06-30-10-22-24-83_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
 
@@ -19,11 +19,11 @@
 
 ![](randompics/Screenshot_2022-06-30-10-22-31-11_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
 
-#paramitric
+# paramitric
 
 ![](randompics/Screenshot_2022-06-30-10-22-36-78_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
 
-#settings to change
+# settings to change
 
 ![](randompics/Screenshot_2022-06-30-10-22-46-69_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
 ![](randompics/Screenshot_2022-06-30-10-23-15-46_1dbf7f859d905664b3e4ffc4f55347b3.jpg)
